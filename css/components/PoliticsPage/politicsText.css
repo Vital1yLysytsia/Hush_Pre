@@ -1,0 +1,97 @@
+.privacy-policy__wrapper {
+  max-width: 1080px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 28px 101px 100px 101px;
+}
+.privacy-policy__title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 2px;
+}
+.privacy-policy__mainArticle {
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.8px;
+  margin: 24px 0px 40px 0px;
+}
+.privacy-policy__punct {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.8px;
+  margin-bottom: 16px;
+}
+.privacy-policy__article {
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.8px;
+  margin-bottom: 16px;
+}
+.privacy-policy__article-spaceTop {
+  margin-top: 25.6px;
+}
+.privacy-policy__article-spaceBottom {
+  margin-bottom: 25.6px;
+}
+.privacy-policy__article-space {
+  display: block;
+  margin-left: 25px;
+  position: relative;
+}
+.privacy-policy__article-space::before {
+  content: "-";
+  width: 10px;
+  height: 2px;
+  position: absolute;
+  left: -12px;
+  font-size: 14px;
+  color: #111;
+}
+.privacy-policy__article-nospace {
+  display: block;
+  margin-left: 13px;
+  position: relative;
+}
+.privacy-policy__article-nospace::before {
+  content: "-";
+  width: 10px;
+  height: 2px;
+  position: absolute;
+  left: -12px;
+  font-size: 14px;
+  color: #111;
+}
+.privacy-policy__article li {
+  list-style-type: disc;
+  margin-left: 22px;
+}
+@media screen and (max-width: 900px) {
+  .privacy-policy__wrapper {
+    padding: 20px 20px 64px 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .privacy-policy__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 1.2px;
+  }
+  .privacy-policy__mainArticle {
+    margin: 8px 0px 16px 0px;
+  }
+}
+/*# sourceMappingURL=politicsText.css.map */
