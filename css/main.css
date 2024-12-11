@@ -2455,6 +2455,7 @@ p {
   background-color: transparent;
   font-size: 16px;
   line-height: 30px;
+  color: #201F1D;
 }
 .product-category__mobile-list {
   display: none;
