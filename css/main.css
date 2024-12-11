@@ -2453,6 +2453,8 @@ p {
   align-items: center;
   gap: 16px;
   background-color: transparent;
+}
+.product-category__mob-filter-btn p {
   font-size: 16px;
   line-height: 30px;
   color: #201F1D;
