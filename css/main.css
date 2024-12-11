@@ -2579,7 +2579,8 @@ p {
   margin-top: 31px;
   margin-bottom: 24px;
 }
-.filters__mob h3 {
+.filters__mob-title {
+  color: #201F1D;
   line-height: 30px;
 }
 .filters__mob-close {
@@ -3205,6 +3206,10 @@ p {
     opacity: 1;
   }
 }
+.expand-btn-text {
+  color: #201F1D;
+}
+
 .products__box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4956,6 +4961,7 @@ p {
   font-size: 18px;
   line-height: 120%;
   letter-spacing: 0.9px;
+  color: #201F1D;
 }
 .faq__icon {
   display: -webkit-box;
@@ -5126,6 +5132,7 @@ p {
   justify-content: space-between;
 }
 .basket-order__promo-input input {
+  border-radius: 0px;
   padding: 4px;
   height: 24px;
   -webkit-box-sizing: border-box;
@@ -7397,6 +7404,7 @@ p {
   font-size: 18px;
   font-weight: 500;
   line-height: 160%;
+  color: #201F1D;
 }
 .checkout-form__delivery-option.active {
   background-color: #F9F1E6;
